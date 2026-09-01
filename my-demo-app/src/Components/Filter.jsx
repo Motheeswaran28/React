@@ -8,7 +8,7 @@ function Filter({
 
       <h2>Filter</h2>
 
-      {/* All */}
+
       <label>
         <input
           type="checkbox"
@@ -19,7 +19,7 @@ function Filter({
         All
       </label>
 
-      {/* Categories */}
+
       {categories.map((category) => (
         <label key={category}>
 
